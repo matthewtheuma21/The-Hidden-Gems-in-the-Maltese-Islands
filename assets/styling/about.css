@@ -1,0 +1,98 @@
+a img {
+    width: 50px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.logo {
+padding-left: 100px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  padding-left: 100px;
+  padding-bottom: 50px; /* the space between the image and the footer*/
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+  }
+/* other half of the page */
+  .vertical-line {
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 50%;
+    width: 1px; /* just because I want a thin line for design purposes. */
+    height: 770px; /* to adjust the length of the line*/
+    background-color: #000; 
+    z-index: 999; /* just to ensure the line is on top of other content */
+  }
+
+  .text {
+    margin-left: 10px;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #ffd860;
+    color: #000000;
+    padding: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.mail-icon img {
+  width: 35px;
+  height: auto;
+  padding-left: 250px; /* so that the mail icon is aligned with the left part of the text of the footer*/
+  padding-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* so that all the content is in line (being vertically aligned)*/
+    max-width: 1050px; /* i figured out that this needed a different max-width than the footer for index.html */
+    margin: 0 auto;
+}
+
+.left, .middle, .right {
+    flex: 1;
+}
+
+.left {
+    padding-right: 200px;
+    /* to leave space between the left flex basis and middle flex basis */
+}
+
+.left p, .right p {
+    margin: 0;
+}
+
+.middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.middle ul li {
+    margin-bottom: 10px;
+}
+
+.middle ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.middle ul li a:hover {
+    text-decoration: underline;
+}
