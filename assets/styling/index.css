@@ -4,132 +4,70 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Title of the Website*/
-.container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+/* All the content over the background image*/
 
-h1 {
-    font-size: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    text-align: center;
-    /* to center the text*/
-    transform: translate(-50%, -50%);
-    color: white;
-}
-
-.logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-}
-
-/* Navigation Bar - everything from here is based under the header*/
-
-header {
-    position: absolute;
-    /* so that the navigation bar stays at the bottom of the image while scrolling*/
-    width: 100%;
-    /* to set the width of the whole container*/
-    bottom: 0;
-    padding-bottom: 20px; /* To move the navigation bar a bit higher so that it is seen better on the website as you open it*/
-    color: white;
-    background-attachment: fixed;
-}
-
-header nav ul {
-    display: flex;
-    /* to make them in a row, and not in column*/
-    list-style: none;
-    /* to remove the bullet points */
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-header nav ul li {
-    height: 100%;
-    width: 100%;
-}
-
-
-header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 80px;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
-
-/* Background Image */
 .background {
     background-size: cover;
     background-position: center;
+    width: 100%;
     height: 100vh;
-    /* This makes the background cover the whole screen */
-    background-attachment: fixed;
-    /* Keeps the background image fixed while scrolling */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-h3 {
-    font-size: 40px;
-    font-weight: bold;
+.background img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.homeBg {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+/* the text in the center-middle of the background image */
+.col-12 h1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
     text-align: center;
-}
-/* Articles */
+    font-weight: 700;
 
-.article-container {
-    display: flex;
-    flex-direction: column;
-    /* so that the articles will be stacked vertically */
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 80px;
 }
-
-.article-box {
-    display: flex;
-    /* so that the image is put to flex on the right of the article box */
-    background-color: white;
-    border: 1px solid rgb(187, 187, 187);
-    /* so that the black outline is not seen, to make it more clean */
-    margin-bottom: 20px;
-    /* which is the space between each article box */
+ /* Navigation Bar */
+.nav {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
 }
 
-.article-content {
-    flex: 1;
-    padding: 20px;
-    font-size: 30px;
-    text-align: justify;
+nav a {
+    color: white;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
-.article-content h2 {
-    margin-top: 0;
-}
-
-.article-box img {
-    max-width: 600px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 40px;
-    padding-left: 25px;
-}
 
 /* footer */
 
@@ -146,20 +84,25 @@ footer {
 .mail-icon img {
     width: 50px;
     height: auto;
-    padding-left: 400px; /* so that the mail icon is aligned with the left part of the text of the footer*/
+    padding-left: 400px;
+    /* so that the mail icon is aligned with the left part of the text of the footer*/
     padding-top: 20px;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* so that all the content is in line (being vertically aligned)*/
-    max-width: 1500px; /* large amount of px was needed so a good amount of space is distributed between */
+    align-items: center;
+    /* so that all the content is in line (being vertically aligned)*/
+    max-width: 1500px;
+    /* large amount of px was needed so a good amount of space is distributed between */
     margin: 0 auto;
 }
 
 
-.left, .middle, .right {
+.left,
+.middle,
+.right {
     flex: 1;
 }
 
@@ -169,7 +112,8 @@ footer {
 }
 
 
-.left p, .right p {
+.left p,
+.right p {
     margin: 0;
 }
 
