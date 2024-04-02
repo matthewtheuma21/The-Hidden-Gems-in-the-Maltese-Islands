@@ -29,12 +29,10 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    z-index: 1;
 }
 
 .homeBg {
     position: relative;
-    z-index: 1;
     color: white;
 }
 
@@ -85,7 +83,7 @@ h3 {
     text-align: justify;
 }
 
-.col-5 img {
+.col-4 img {
     width: 400px;
 }
 

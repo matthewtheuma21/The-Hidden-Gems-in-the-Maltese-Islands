@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" href="assets/styling/bootstrap.css">
+    <link rel="stylesheet" href="assets/styling/contact.css">
+    <link rel="stylesheet" href="assets/styling/master.css">
+</head>
+
+<body>
+
+    <div class="yellow-rectangle"></div>
+
+    <div class="arrow">
+        <a href="index.html">
+            <img src="assets/images/back-arrow.png" alt="Arrow">
+        </a>
+    </div>
+    
+    <div class="title">
+        <h1>CONTACT ME</h1>
+    </div>
+
+
+    <div class="personal-information">
+        <h4>
+            matthewgarlic@gmail.com
+            <br>
+            7799 8899
+            <br>
+            Triq l-Imbierek, Mosta
+            <br>
+            Malta
+        </h4>
+    </div>
+
+    <form action="mailto:matthewgarlic@gmail.com" method="post" enctype="text/plain">
+        <label for="name"></label>
+        <input type="text" name="name" id="name" placeholder="Your Full Name">
+
+        <br>
+
+        <label for="country"></label>
+        <input type="text" name="country" id="country" placeholder="Country Name">
+
+        <br>
+
+        <label for="information"></label>
+        <input type="text" name="information" id="information" placeholder="About Yourself">
+
+        <br>
+
+        <div class="buttons">
+            <button type="submit" class="btn btn-dark">Send Message</button>
+            <button type="reset" class="btn btn-outline-danger">Erase Information</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
