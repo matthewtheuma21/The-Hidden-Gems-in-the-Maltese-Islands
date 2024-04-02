@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* All the content over the background image*/
@@ -39,7 +39,8 @@ body {
 }
 
 .logo img{
-    max-width: 100%;
+    width: 250px;
+    padding-top: 40px;
 }
 
 /* the text in the center-middle of the background image */
@@ -53,30 +54,43 @@ body {
 
 }
  /* Navigation Bar */
-.nav {
-    position: absolute;
-    top: 20px;
+.navigation-bar {
+    padding-top: 470px; /* to adjust the navigation bar at the bottom, in my own specific preference */
     width: 100%;
     text-align: center;
-    z-index: 1;
+    font-size: 23px;
+    font-weight: bolder;
 }
 
-nav a {
+.navigation-bar a {
     color: white;
-    margin: 0 20px;
-    padding: 10px 20px;
-    border-radius: 5px;
+    text-decoration: none;
 }
 
+/* article content */
 
-/* footer */
+h3 {
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.article-box {
+    background-color: #fff;
+}
+
+.article-content {
+    padding: 30px;
+}
+
+/* footer content */
 
 footer {
     background-color: #ffd860;
     color: #000000;
     padding: 20px 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-align: justify;
 }
@@ -107,7 +121,8 @@ footer {
 }
 
 .left {
-    padding-right: 200px;
+    padding-left: 70px;
+    padding-right: 100px;
     /* to leave space between the left flex basis and middle flex basis */
 }
 
@@ -115,6 +130,10 @@ footer {
 .left p,
 .right p {
     margin: 0;
+}
+
+.right p{
+    padding-right: 70px;
 }
 
 .middle ul {

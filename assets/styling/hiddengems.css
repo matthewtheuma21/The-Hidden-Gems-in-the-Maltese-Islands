@@ -76,3 +76,74 @@ img {
 .text-container p {
     margin: 0;
 }
+
+/* footer content */
+
+footer {
+    background-color: #ffd860;
+    color: #000000;
+    padding: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.mail-icon img {
+    width: 50px;
+    height: auto;
+    padding-left: 400px;
+    /* so that the mail icon is aligned with the left part of the text of the footer*/
+    padding-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* so that all the content is in line (being vertically aligned)*/
+    max-width: 1500px;
+    /* large amount of px was needed so a good amount of space is distributed between */
+    margin: 0 auto;
+}
+
+
+.left,
+.middle,
+.right {
+    flex: 1;
+}
+
+.left {
+    padding-left: 70px;
+    padding-right: 100px;
+    /* to leave space between the left flex basis and middle flex basis */
+}
+
+
+.left p,
+.right p {
+    margin: 0;
+}
+
+.right p{
+    padding-right: 70px;
+}
+
+.middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.middle ul li {
+    margin-bottom: 10px;
+}
+
+.middle ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.middle ul li a:hover {
+    text-decoration: underline;
+}
