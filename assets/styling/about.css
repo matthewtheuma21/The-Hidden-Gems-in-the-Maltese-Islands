@@ -1,29 +1,25 @@
-a img {
-    width: 50px;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-bottom: 30px;
-}
-
 .logo {
-padding-left: 100px;
+  padding-left: 100px;
 }
 
-.image-container {
-  position: relative;
-  overflow: hidden;
+.arrow img {
+  padding-top: 20px;
   padding-left: 100px;
-  padding-bottom: 50px; /* the space between the image and the footer*/
-  }
-  
-  .image-container img {
+  padding-bottom: 30px;
+}
+
+.image-container img {
+    padding-left: 100px;
+    padding-bottom: 50px; /* the space between the image and the footer*/
     transition: transform 0.3s ease-in-out; /* Smooth transition */
   }
   
   .image-container img:hover {
     transform: scale(1.1); /* Zoom effect on hover */
   }
+
 /* other half of the page */
+
   .vertical-line {
     position: absolute;
     top: 70px;
@@ -46,37 +42,50 @@ padding-left: 100px;
     color: #000000;
     padding: 20px 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: bold;
     text-align: justify;
 }
 
 .mail-icon img {
-  width: 35px;
-  height: auto;
-  padding-left: 250px; /* so that the mail icon is aligned with the left part of the text of the footer*/
-  padding-top: 20px;
+    width: 50px;
+    height: auto;
+    padding-left: 400px;
+    /* so that the mail icon is aligned with the left part of the text of the footer*/
+    padding-top: 20px;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* so that all the content is in line (being vertically aligned)*/
-    max-width: 1050px; /* i figured out that this needed a different max-width than the footer for index.html */
+    align-items: center;
+    /* so that all the content is in line (being vertically aligned)*/
+    max-width: 1500px;
+    /* large amount of px was needed so a good amount of space is distributed between */
     margin: 0 auto;
 }
 
-.left, .middle, .right {
+
+.left,
+.middle,
+.right {
     flex: 1;
 }
 
 .left {
-    padding-right: 200px;
+    padding-left: 70px;
+    padding-right: 100px;
     /* to leave space between the left flex basis and middle flex basis */
 }
 
-.left p, .right p {
+
+.left p,
+.right p {
     margin: 0;
+}
+
+.right p{
+    padding-right: 70px;
 }
 
 .middle ul {
