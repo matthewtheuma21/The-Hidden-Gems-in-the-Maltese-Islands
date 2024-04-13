@@ -43,17 +43,17 @@ body {
 
 /* the text in the center-middle of the background image */
 .col-12 h1 {
-    position: absolute;
     top: 40%;
     left: 40%;
     color: white;
     text-align: center;
     font-weight: 700;
+    font-size: 70px;
 
 }
  /* Navigation Bar */
 .navigation-bar {
-    padding-top: 470px; /* to adjust the navigation bar at the bottom, in my own specific preference */
+    padding-top: 300px; /* to adjust the navigation bar at the bottom, in my own specific preference */
     width: 100%;
     text-align: center;
     font-size: 23px;
@@ -150,30 +150,34 @@ footer {
     margin: 0 auto;
 }
 
-.col p {
+.col-3 p {
     padding-left: 70px;
-    padding-right: 100px;
     /* to leave space between the cols */
 }
 
-.col a {
-    /* padding-left: 70px; */
-    text-decoration: none;
-    /* to align with the text on top */
+.col-4 p {
+    padding-left: 30px;
+    padding-right: 40px;
+    /* to leave space between the cols */
+    padding-top: 20px;
 }
 
-.right p{
-    padding-right: 70px;
+.col-3 a {
+    text-decoration: none;
+    padding-left: 70px;
+    color: #fff;
 }
 
 footer ul {
     list-style: none;
     padding-top: 20px;
     padding-left: 20px;
+    font-size: 25px;
 }
 
 footer ul li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 footer ul li a {

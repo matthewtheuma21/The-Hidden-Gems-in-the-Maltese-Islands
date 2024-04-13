@@ -96,9 +96,13 @@ footer {
 .mail-icon img {
     width: 50px;
     height: auto;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.mail-icon a {
     padding-left: 400px;
     /* so that the mail icon is aligned with the left part of the text of the footer*/
-    padding-top: 20px;
 }
 
 .footer-content {
@@ -111,43 +115,41 @@ footer {
     margin: 0 auto;
 }
 
-
-.left,
-.middle,
-.right {
-    flex: 1;
-}
-
-.left {
+.col-3 p {
     padding-left: 70px;
-    padding-right: 100px;
-    /* to leave space between the left flex basis and middle flex basis */
+    /* to leave space between the cols */
 }
 
-
-.left p,
-.right p {
-    margin: 0;
+.col-4 p {
+    padding-left: 30px;
+    padding-right: 40px;
+    /* to leave space between the cols */
+    padding-top: 20px;
 }
 
-.right p{
-    padding-right: 70px;
+.col-3 a {
+    text-decoration: none;
+    padding-left: 70px;
 }
 
-.middle ul {
+footer ul {
     list-style: none;
-    padding: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
 }
 
-.middle ul li {
-    margin-bottom: 10px;
+footer ul li {
+    margin-bottom: 5px;
+    text-align: center;
 }
 
-.middle ul li a {
+footer ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-.middle ul li a:hover {
+footer ul li a:hover {
     text-decoration: underline;
 }
+

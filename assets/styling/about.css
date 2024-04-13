@@ -2,106 +2,125 @@
   padding-left: 100px;
 }
 
-.arrow img {
-  padding-top: 20px;
-  padding-left: 100px;
+.img-fluid {
+  padding-top: 10px;
   padding-bottom: 30px;
+  padding-left: 70px;
+  width: 125px;
 }
 
-.image-container img {
-    padding-left: 100px;
-    padding-bottom: 50px; /* the space between the image and the footer*/
-    transition: transform 0.3s ease-in-out; /* Smooth transition */
-  }
-  
-  .image-container img:hover {
-    transform: scale(1.1); /* Zoom effect on hover */
-  }
+.col-5{
+  padding-bottom: 70px;
+  padding-left: 60px;
+}
+
+.col-5 .img-thumbnail {
+  width: 500px;
+  transition: transform 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+.col-5 .img-thumbnail:hover {
+  transform: scale(1.1);
+  /* Zoom effect on hover */
+}
 
 /* other half of the page */
 
-  .vertical-line {
-    position: absolute;
-    top: 70px;
-    bottom: 0;
-    left: 50%;
-    width: 1px; /* just because I want a thin line for design purposes. */
-    height: 770px; /* to adjust the length of the line*/
-    background-color: #000; 
-    z-index: 999; /* just to ensure the line is on top of other content */
-  }
+.vertical-line {
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 40%;
+  width: 1px;
+  /* just because I want a thin line for design purposes. */
+  height: 650px;
+  /* to adjust the length of the line*/
+  background-color: #000;
+}
 
-  .text {
-    margin-left: 10px;
-  }
+.col-7 h2{
+  text-align: right;
+  padding-right: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700px;
+}
 
-  /* footer */
+.col-7 p{
+  text-align: justify;
+  padding-right: 50px;
+  font-family: sans-serif;
+}
 
-  footer {
-    background-color: #ffd860;
-    color: #000000;
-    padding: 20px 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
+/* footer */
+
+footer {
+  background-color: #ffd860;
+  color: #000000;
+  padding: 20px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .mail-icon img {
-    width: 50px;
-    height: auto;
-    padding-left: 400px;
-    /* so that the mail icon is aligned with the left part of the text of the footer*/
-    padding-top: 20px;
+  width: 50px;
+  height: auto;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.mail-icon a {
+  padding-left: 400px;
+  /* so that the mail icon is aligned with the left part of the text of the footer*/
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* so that all the content is in line (being vertically aligned)*/
-    max-width: 1500px;
-    /* large amount of px was needed so a good amount of space is distributed between */
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* so that all the content is in line (being vertically aligned)*/
+  max-width: 1500px;
+  /* large amount of px was needed so a good amount of space is distributed between */
+  margin: 0 auto;
 }
 
-
-.left,
-.middle,
-.right {
-    flex: 1;
+.col-3 p {
+  padding-left: 70px;
+  /* to leave space between the cols */
 }
 
-.left {
-    padding-left: 70px;
-    padding-right: 100px;
-    /* to leave space between the left flex basis and middle flex basis */
+.col-4 p {
+  padding-left: 30px;
+  padding-right: 40px;
+  /* to leave space between the cols */
+  padding-top: 20px;
 }
 
-
-.left p,
-.right p {
-    margin: 0;
+.col-3 a {
+  text-decoration: none;
+  padding-left: 70px;
+  color: #fff;
 }
 
-.right p{
-    padding-right: 70px;
+footer ul {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
 }
 
-.middle ul {
-    list-style: none;
-    padding: 0;
+footer ul li {
+  margin-bottom: 5px;
+  text-align: center;
 }
 
-.middle ul li {
-    margin-bottom: 10px;
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.middle ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.middle ul li a:hover {
-    text-decoration: underline;
+footer ul li a:hover {
+  text-decoration: underline;
 }
