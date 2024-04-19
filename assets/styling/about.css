@@ -64,11 +64,15 @@ footer {
   text-align: justify;
 }
 
-.mail-icon img {
+.mail-icon{
   width: 50px;
-  height: auto;
-  padding-left: 100px;
-  padding-top: 20px;
+  height: 50px;
+  margin-left: 70px; /* so that the spacing is effected only on the outside */
+}
+
+.mail-icon img {
+  display: block;
+  width: 100%;
 }
 
 .mail-icon a {
@@ -84,6 +88,10 @@ footer {
   max-width: 1500px;
   /* large amount of px was needed so a good amount of space is distributed between */
   margin: 0 auto;
+}
+
+.col-3{
+  padding-top: 20px;
 }
 
 .col-3 p {

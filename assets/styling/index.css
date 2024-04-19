@@ -131,7 +131,7 @@ footer {
 .mail-icon{
     width: 50px;
     height: 50px;
-    margin-left: 70px;
+    margin-left: 70px; /* so that the spacing is effected only on the outside */
 }
 
 .mail-icon img {
@@ -153,6 +153,10 @@ footer {
     /* large amount of px was needed so a good amount of space is distributed between */
     margin: 0 auto;
 }
+
+.col-3{
+    padding-top: 20px;
+  }
 
 .col-3 p {
     padding-left: 70px;
