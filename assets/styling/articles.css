@@ -1,141 +1,167 @@
 .logo {
-    padding-left: 100px;
-  }
-  
-  .img-fluid {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    padding-left: 70px;
-    width: 125px;
-  }
-  
-  .container {
-    margin-bottom: 30px;
-  }
-  
-  .col-5{
-    padding-bottom: 70px;
-    padding-left: 60px;
-    padding-right: 30px;
-  }
-  
-  .col-5 .img-thumbnail {
-    width: 500px;
-    transition: transform 0.3s ease-in-out;
-    /* Smooth transition */
-  }
-  
-  .col-5 .img-thumbnail:hover {
-    transform: scale(1.1);
-    /* Zoom effect on hover */
-  }
-  
-  /* other half of the page */
+  padding-left: 100px;
+}
 
-  .col-7 {
-    border-left: #000000 1px solid;
-    padding-left: 40px;
-  }
-  
-  .col-7 h3{
-    text-align: left;
-    padding-right: 50px;
-    padding-bottom: 100px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700px;
-  }
+.headline h4{
+  padding-bottom: 100px;
+}
 
-  .col-7 h5{
-    text-align: right;
-    padding-right: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 700px;
-  }
-  
-  .col-7 p{
-    text-align: justify;
-    padding-right: 50px;
-    padding-bottom: 40px;
-    font-family: sans-serif;
-  }
-  
-  /* footer */
-  
-  footer {
-    background-color: #ffd860;
-    color: #000000;
-    padding: 20px 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
-  }
-  
-  .mail-icon{
-    width: 50px;
-    height: 50px;
-    margin-left: 70px; /* so that the spacing is effected only on the outside */
+.img-fluid {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  width: 125px;
+}
+
+.container {
+  margin-bottom: 30px;
+}
+
+.col-5 {
+  padding-bottom: 70px;
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+.col-5 .img-thumbnail {
+  width: 500px;
+  transition: transform 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+.col-5 .img-thumbnail:hover {
+  transform: scale(1.1);
+  /* Zoom effect on hover */
+}
+
+/* other half of the page */
+
+.col-7 {
+  border-left: #000000 1px solid;
+  padding-left: 40px;
+}
+
+.col-7 h3 {
+  text-align: left;
+  padding-right: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700px;
+}
+
+.col-7 h5 {
+  text-align: right;
+  padding-right: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700px;
+}
+
+.col-7 p {
+  text-align: justify;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  font-family: sans-serif;
+}
+
+.text h4 b {
+  margin-left: 10px;
+}
+
+.circle {
+  /* this is for the filled circles, which show the ranking */
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  padding-left: 10px;
+}
+
+.outline {
+  /* this is for circles to be only outlined to show lower ranking, only used if in the html is included */
+  background-color: transparent;
+    border: 2px solid black;
+
+}
+
+/* footer */
+
+footer {
+  background-color: #ffd860;
+  color: #000000;
+  padding: 20px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.mail-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 70px;
+  /* so that the spacing is effected only on the outside */
 }
 
 .mail-icon img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
-  
-  .mail-icon a {
-    padding-left: 400px;
-    /* so that the mail icon is aligned with the left part of the text of the footer*/
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* so that all the content is in line (being vertically aligned)*/
-    max-width: 1500px;
-    /* large amount of px was needed so a good amount of space is distributed between */
-    margin: 0 auto;
-  }
 
-  .col-3{
-    padding-top: 20px;
-  }
-  
-  .col-3 p {
-    padding-left: 70px;
-    /* to leave space between the cols */
-  }
-  
-  .col-4 p {
-    padding-left: 30px;
-    padding-right: 40px;
-    /* to leave space between the cols */
-    padding-top: 20px;
-  }
-  
-  .col-3 a {
-    text-decoration: none;
-    padding-left: 70px;
-    color: #fff;
-  }
-  
-  footer ul {
-    list-style: none;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 25px;
-  }
-  
-  footer ul li {
-    margin-bottom: 5px;
-    text-align: center;
-  }
-  
-  footer ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  footer ul li a:hover {
-    text-decoration: underline;
-  }
+.mail-icon a {
+  padding-left: 400px;
+  /* so that the mail icon is aligned with the left part of the text of the footer*/
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* so that all the content is in line (being vertically aligned)*/
+  max-width: 1500px;
+  /* large amount of px was needed so a good amount of space is distributed between */
+  margin: 0 auto;
+}
+
+.col-3 {
+  padding-top: 20px;
+}
+
+.col-3 p {
+  padding-left: 70px;
+  /* to leave space between the cols */
+}
+
+.col-4 p {
+  padding-left: 30px;
+  padding-right: 40px;
+  /* to leave space between the cols */
+  padding-top: 20px;
+}
+
+.col-3 a {
+  text-decoration: none;
+  padding-left: 70px;
+  color: #fff;
+}
+
+footer ul {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}

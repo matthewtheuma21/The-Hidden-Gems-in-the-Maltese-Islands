@@ -43,6 +43,7 @@ h2 {
     padding-left: 30px;
     cursor: pointer;
     /* Show cursor as pointer on hover */
+    padding-top: 60px;
 }
 
 /* the articles in the container*/
