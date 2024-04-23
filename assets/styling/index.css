@@ -42,15 +42,93 @@ body {
 }
 
 /* the text in the center-middle of the background image */
-.col-12 h1 {
-    top: 40%;
-    left: 40%;
-    color: white;
-    text-align: center;
-    font-weight: 700;
-    font-size: 70px;
 
+h1{
+    text-align:center;
+    color: #ffffff; 
+    font-size: 4rem;
+  }
+  
+  .roller{
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
 }
+
+
+#spare-time{
+    font-size: 20px;
+    margin-top: 0;
+    color: #162020;
+    
+}
+
+.roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+    font-size: 40px;  
+  }
+  
+  @keyframes slide {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -4rem;    
+    }
+    50%{
+      top: -8rem;
+    }
+    72.5%{
+      top: -12.25rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    h1{
+    text-align:center;
+    text-transform: uppercase;
+    color: #F1FAEE; 
+    font-size: 2.125rem;
+  }
+    
+    .roller{
+    height: 2.6rem; 
+    line-height: 2.125rem;  
+    }
+    
+    #spare-time {
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+    }
+    
+    .roller #rolltext {  
+    animation: slide-mob 5s infinite;  
+  }
+    
+    @keyframes slide-mob {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -2.125rem;    
+    }
+    50%{
+      top: -4.25rem;
+    }
+    72.5%{
+      top: -6.375rem;
+    }
+  }
+  }
+  
  /* Navigation Bar */
 .navigation-bar {
     padding-top: 300px; /* to adjust the navigation bar at the bottom, in my own specific preference */
