@@ -1,15 +1,7 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
-    width: 50%;
     margin: 0 auto;
-}
-
-.img-fluid {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    width: 80px;
-
 }
 
 /* yellow design*/
@@ -22,34 +14,79 @@ body {
     background-color: #ffd860;
 }
 
-.title h1::after{
-    content: "";
+/* animation for the title */
+
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+  }
+  @keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+  }
+  .col-8 .animated-title{
+    padding-left: 320px; /* to in-line with the form below */
+  }
+
+  .animated-title {
+    color: #222;
+    font-family: Roboto, Arial, sans-serif;
+    height: 90vmin;
     position: absolute;
-    bottom: -3px;
-    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vmin;
+  }
+  .animated-title > div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
     width: 100%;
-    height: 6px;
-    background-color: #ffd860;
-}
+  }
+  .animated-title > div div {
+    font-size: 12vmin;
+    padding: 2vmin 0;
+    position: absolute;
+  }
+  .animated-title > div div span {
+    display: block;
+  }
+  .animated-title > div.text-top {
+    border-bottom: 1vmin solid #000;
+    top: 0;
+  }
+  .animated-title > div.text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+  .animated-title > div.text-top div span:first-child {
+    color: #767676;
+  }
+  .animated-title > div.text-bottom {
+    bottom: 0;
+  }
+  .animated-title > div.text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+  }
 
 /* content */
-
-.title{
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-.title h1{
-    font-size: 80px;
-    font-weight: 900;
-    position: relative;
-    display: flex;
+.img-fluid {
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 180px;
 }
 
-
-
-.personal-information{
+.contact-content{
+    margin-top: 520px; /* the position (spacing) between the animation and the form */
     padding-bottom: 30px;
-
 }
 
 label {
