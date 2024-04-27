@@ -90,6 +90,10 @@ footer {
   margin: 0 auto;
 }
 
+.container-fluid{
+  padding: 50px;
+}
+
 .col-3{
   padding-top: 20px;
 }

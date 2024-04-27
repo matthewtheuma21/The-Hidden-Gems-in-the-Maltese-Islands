@@ -1,277 +1,299 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 /* All the content over the background image*/
 
 .background {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .background img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .homeBg {
-    position: relative;
-    color: white;
+  position: relative;
+  color: white;
 }
 
-.logo img{
-    width: 250px;
-    padding-top: 40px;
+.logo img {
+  width: 250px;
+  padding-top: 40px;
 }
 
 /* the text in the center-middle of the background image */
 
-h1{
-    text-align:center;
-    color: #ffffff; 
-    font-size: 4rem;
-  }
-  
-  .roller{
-    height: 4.125rem;
-    line-height: 4rem;
-    position: relative;
-    overflow: hidden; 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1D3557;
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.roller {
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D3557;
 }
 
 
-#spare-time{
-    font-size: 20px;
-    margin-top: 0;
-    color: #162020;
-    
+#spare-time {
+  font-size: 20px;
+  margin-top: 0;
+  color: #162020;
+
 }
 
 .roller #rolltext {
-    position: absolute;
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;
+  font-size: 40px;
+}
+
+@keyframes slide {
+  0% {
     top: 0;
-    animation: slide 5s infinite;
-    font-size: 40px;  
   }
-  
-  @keyframes slide {
-    0%{
-      top:0;
-    }
-    25%{
-      top: -4rem;    
-    }
-    50%{
-      top: -8rem;
-    }
-    72.5%{
-      top: -12.25rem;
-    }
+
+  25% {
+    top: -4rem;
   }
-  
-  @media screen and (max-width: 600px){
-    h1{
-    text-align:center;
+
+  50% {
+    top: -8rem;
+  }
+
+  72.5% {
+    top: -12.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
     text-transform: uppercase;
-    color: #F1FAEE; 
+    color: #F1FAEE;
     font-size: 2.125rem;
   }
-    
-    .roller{
-    height: 2.6rem; 
-    line-height: 2.125rem;  
-    }
-    
-    #spare-time {
-      font-size: 1rem;
-      letter-spacing: 0.1rem;
-    }
-    
-    .roller #rolltext {  
-    animation: slide-mob 5s infinite;  
+
+  .roller {
+    height: 2.6rem;
+    line-height: 2.125rem;
   }
-    
-    @keyframes slide-mob {
-    0%{
-      top:0;
+
+  #spare-time {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .roller #rolltext {
+    animation: slide-mob 5s infinite;
+  }
+
+  @keyframes slide-mob {
+    0% {
+      top: 0;
     }
-    25%{
-      top: -2.125rem;    
+
+    25% {
+      top: -2.125rem;
     }
-    50%{
+
+    50% {
       top: -4.25rem;
     }
-    72.5%{
+
+    72.5% {
       top: -6.375rem;
     }
   }
-  }
-  
- /* Navigation Bar */
+}
+
+/* Navigation Bar */
+
+.home-navigator {
+  padding-top: 130px;
+}
+
+.home-navigator a {
+  font-size: 40px;
+  padding-left: 275px;
+  color: white;
+  text-decoration: none;
+}
+
 .navigation-bar {
-    padding-top: 300px; /* to adjust the navigation bar at the bottom, in my own specific preference */
-    width: 100%;
-    text-align: center;
-    font-size: 23px;
-    font-weight: bolder;
+  padding-top: 80px;
+  /* to adjust the navigation bar at the bottom, in my own specific preference */
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bolder;
 }
 
 .navigation-bar a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 /* article content */
 
 
 h3 {
-    text-align: center;
-    color: white;
-    padding-bottom: 40px;
+  text-align: center;
+  color: white;
+  padding-bottom: 40px;
 }
 
 
 
-.hpal{
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    text-decoration: none;
+.hpal {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: none;
 }
 
-.hpal:hover{
-    background-color: rgb(240, 239, 239) !important;
+.hpal:hover {
+  background-color: rgb(240, 239, 239) !important;
 }
 
 .hpal article {
-    margin: 0;
+  margin: 0;
 }
 
 .article-content {
-    padding-top: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 60px;
-    text-align: justify;
-   
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  text-align: justify;
+
 }
 
-.article-content p{
-    text-decoration: none;
-    color: black;
+.article-content p {
+  text-decoration: none;
+  color: black;
 }
 
-.article-content h2{
-    text-decoration: none;
-    color: black;
+.article-content h2 {
+  text-decoration: none;
+  color: black;
 }
 
 .col-4 img {
-    width: 400px;
+  width: 400px;
 }
 
 /* footer content */
 
 footer {
-    background-color: #ffd860;
-    color: #000000;
-    padding: 20px 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
+  background-color: #ffd860;
+  color: #000000;
+  padding: 20px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
 }
 
-.mail-icon{
-    width: 50px;
-    height: 50px;
-    margin-left: 70px; /* so that the spacing is effected only on the outside */
+.mail-icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 70px;
+  /* so that the spacing is effected only on the outside */
 }
 
 .mail-icon img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .mail-icon a {
-    padding-left: 400px;
-    /* so that the mail icon is aligned with the left part of the text of the footer*/
+  padding-left: 400px;
+  /* so that the mail icon is aligned with the left part of the text of the footer*/
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* so that all the content is in line (being vertically aligned)*/
-    max-width: 1500px;
-    /* large amount of px was needed so a good amount of space is distributed between */
-    margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  /* so that all the content is in line (being vertically aligned)*/
+  max-width: 1500px;
+  /* large amount of px was needed so a good amount of space is distributed between */
+  margin: 0 auto;
 }
 
-.col-3{
-    padding-top: 20px;
-  }
+.container-fluid{
+  padding: 50px;
+}
+
+.col-3 {
+  padding-top: 20px;
+}
 
 .col-3 p {
-    padding-left: 70px;
-    /* to leave space between the cols */
+  padding-left: 70px;
+  /* to leave space between the cols */
 }
 
 .col-4 p {
-    padding-left: 30px;
-    padding-right: 40px;
-    /* to leave space between the cols */
-    padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  /* to leave space between the cols */
+  padding-top: 20px;
 }
 
 .col-3 a {
-    text-decoration: none;
-    padding-left: 70px;
-    color: #fff;
+  text-decoration: none;
+  padding-left: 70px;
+  color: #fff;
 }
 
 footer ul {
-    list-style: none;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 25px;
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
 }
 
 footer ul li {
-    margin-bottom: 5px;
-    text-align: center;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 footer ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
