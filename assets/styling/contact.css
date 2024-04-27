@@ -30,7 +30,7 @@ body {
   }
 
   .animated-title {
-    color: #222;
+    color: #1D3557;
     font-family: Roboto, Arial, sans-serif;
     height: 90vmin;
     position: absolute;
@@ -64,7 +64,7 @@ body {
     transform: translate(0, 100%);
   }
   .animated-title > div.text-top div span:first-child {
-    color: #767676;
+    color: #ffd860;
   }
   .animated-title > div.text-bottom {
     bottom: 0;
