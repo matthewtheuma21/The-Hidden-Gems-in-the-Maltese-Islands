@@ -84,6 +84,91 @@
 
 }
 
+/* skills bar animation - only for abandoned.htmls articles */
+
+.skills-container{
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  margin: 1 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.skills-container .skill-box{
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box1 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box1 .skill-bar1{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar1 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: #ffd860;
+}
+.skill-box2 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box2 .skill-bar2{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar2 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+  background: #ffd860;
+}
+.skill-box3 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box3 .skill-bar3{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar3 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 40%;
+  border-radius: 6px;
+  background: #ffd860;
+}
+
+
 /* footer */
 
 footer {
