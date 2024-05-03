@@ -101,6 +101,7 @@
   margin: 25px 0;
 }
 
+/* rainbow aircraft*/
 .skill-box1 .title{
   display: block;
   font-size: 14px;
@@ -170,10 +171,12 @@
   height: 100%;
   width: 60%;
   border-radius: 6px;
-  background: #ffd860;
+  background: #ff2727;
   animation: progress 0.8s ease-in-out forwards;
   opacity: 0;
 }
+
+/* fawwara */
 .skill-box4 .title{
   display: block;
   font-size: 14px;
@@ -242,10 +245,12 @@
   height: 100%;
   width: 20%;
   border-radius: 6px;
-  background: #ffd860;
+  background: #7d1414;
   animation: progress 0.8s ease-in-out forwards;
   opacity: 0;
 }
+
+/* fort champbell */
 .skill-box7 .title{
   display: block;
   font-size: 14px;
@@ -314,7 +319,445 @@
   height: 100%;
   width: 30%;
   border-radius: 6px;
+  background: #ff2727;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+ /* harq hamiem article */
+.skill-box10 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box10 .skill-bar10{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar10 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 15%;
+  border-radius: 6px;
+  background: #771111;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box11 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box11 .skill-bar11{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar11 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 30%;
+  border-radius: 6px;
   background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box12 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box12 .skill-bar12{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar12 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 10%;
+  border-radius: 6px;
+  background: #771111;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+ /* salina catacombs article */
+.skill-box13 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box13 .skill-bar13{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar13 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box14 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box14 .skill-bar14{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar14 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box15 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box15 .skill-bar15{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar15 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 80%;
+  border-radius: 6px;
+  background: #ff2727;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+ /* st.philips article */
+.skill-box16 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box16 .skill-bar16{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar16 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 15%;
+  border-radius: 6px;
+  background: #771111;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box17 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box17 .skill-bar17{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar17 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box18 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box18 .skill-bar18{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar18 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 50%;
+  border-radius: 6px;
+  background: #ff2727;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+ /* abandoned mellieha tower article */
+.skill-box19 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box19 .skill-bar19{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar19 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box20 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box20 .skill-bar20{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar20 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 80%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box21 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box21 .skill-bar21{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar21 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 80%;
+  border-radius: 6px;
+  background: #ff2727;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+ /* ulysses lodge article */
+.skill-box22 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box22 .skill-bar22{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar22 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box23 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box23 .skill-bar23{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar23 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 80%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box24 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box24 .skill-bar24{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar24 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 60%;
+  border-radius: 6px;
+  background: #ff2727;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+ /* white rocks article */
+.skill-box25 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box25 .skill-bar25{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar25 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 60%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box26 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box26 .skill-bar26{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar26 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box27 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box27 .skill-bar27{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar27 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 70%;
+  border-radius: 6px;
+  background: #ff2727;
   animation: progress 0.8s ease-in-out forwards;
   opacity: 0;
 }

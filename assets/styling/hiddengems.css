@@ -41,6 +41,7 @@ h2 {
 .back-arrow {
     width: 100px;
     padding-left: 30px;
+    padding-top: 20px;
     cursor: pointer;
     /* Show cursor as pointer on hover */
     padding-top: 60px;
