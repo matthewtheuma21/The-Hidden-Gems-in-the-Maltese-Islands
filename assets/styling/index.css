@@ -160,8 +160,25 @@ h1 {
 .navigation-bar a {
   color: white;
   text-decoration: none;
+  position: relative;
 }
 
+/* text underline animation */
+.navigation-bar a:before {
+  content: ' ';
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  background: #ffd860;
+  transition: all 0.4s ease;
+}
+
+.navigation-bar a:hover:before{
+  width: 100%;
+  top: 25px;
+}
 /* article content */
 
 
