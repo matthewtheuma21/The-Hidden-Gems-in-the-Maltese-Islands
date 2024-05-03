@@ -122,6 +122,8 @@
   width: 90%;
   border-radius: 6px;
   background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
 }
 .skill-box2 .title{
   display: block;
@@ -141,10 +143,13 @@
   position: relative;
   display: block;
   height: 100%;
-  width: 70%;
+  width: 95%;
   border-radius: 6px;
   background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
 }
+
 .skill-box3 .title{
   display: block;
   font-size: 14px;
@@ -163,12 +168,168 @@
   position: relative;
   display: block;
   height: 100%;
+  width: 60%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box4 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box4 .skill-bar4{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar4 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 60%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box5 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box5 .skill-bar5{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar5 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
   width: 40%;
   border-radius: 6px;
   background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box6 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box6 .skill-bar6{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar6 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 20%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box7 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box7 .skill-bar7{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar7 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 20%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box8 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box8 .skill-bar8{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar8 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 50%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
+}
+.skill-box9 .title{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skill-box9 .skill-bar9{
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0,0,0,0.1);
+}
+
+.skill-bar9 .skill-per{
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 30%;
+  border-radius: 6px;
+  background: #ffd860;
+  animation: progress 0.8s ease-in-out forwards;
+  opacity: 0;
 }
 
 
+@keyframes progress {
+  0%{
+    width: 0;
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
 /* footer */
 
 footer {
