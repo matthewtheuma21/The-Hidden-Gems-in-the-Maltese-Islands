@@ -14,7 +14,8 @@
     <div class="background">
         <img src="assets/images/background-home-image.jpg" alt="background image">
     </div>
-    <div class="container homeBg"> <!-- all the upper content is here, the first screen you find all in one row (overlapping on the background ): -navigation bar, -title animated, -the logo -->
+    <div class="container homeBg">
+        <!-- all the upper content is here, the first screen you find all in one row (overlapping on the background ): -navigation bar, -title animated, -the logo -->
         <div class="row">
             <div class="col 2">
                 <div class="logo">
@@ -28,7 +29,9 @@
             <div class="main">
                 <h1>Hidden Gems
                     <br>
-                    of the Maltese Islands <div class="roller"> 
+                    of the Maltese Islands
+                    <!-- animated text, rolling down -->
+                    <div class="roller">
                         <span id="rolltext">choose from<br />
                             HIDDEN SPOTS<br />
                             THE ABANDONED<br />
@@ -40,10 +43,12 @@
         </div>
 
         <nav>
-            <a href="#home">Check out the Top 3 Most Visited Articles</a> <!-- a link that takes you to the middle part of the page (by automatic scroll), the top 3 articles-->
-        </div>
-        <div class="navigation-bar">
-                <div class="home-navigator"> <!-- navigation bar -->
+            <div class="home-navigator">
+                <a href="#home">Check out the Top 3 Most Visited Articles</a> 
+                <!-- this link takes you the top 3 visited articles (under the navigation bar), with automatic scroll-->
+            </div>
+
+            <div class="navigation-bar"> <!-- navigation -->
                 <div class="row">
                     <div class="col">
                         <a href="the-hidden-gems.html">The Hidden Gems</a>
@@ -63,11 +68,11 @@
                 </div>
             </div>
         </nav>
-    </div>
+    </div> <!-- end of class: 'container homeBg'-->
 
 
-    <div class="container-fluid p-0">
-        <section id="home">
+    <div class="container-fluid p-0"> <!-- using bootstrap class to provide a full width container, spanning the entire width of the viewport. -->
+        <section id="home"> <!-- the top 3 articles -->
             <a href="fawwara.html" class="hpal bg-white">
                 <article class="row">
                     <div class="col-8"> <!-- Text Area - Column 8 -->
