@@ -45,14 +45,14 @@
   text-align: left;
   padding-right: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .col-7 h5 {
   text-align: right;
   padding-right: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .col-7 p {
@@ -91,7 +91,7 @@
   max-width: 500px;
   width: 100%;
   background: white;
-  margin: 1 15px;
+  margin: 1px 15px;
   padding: 10px 20px;
   border-radius: 7px;
 }
