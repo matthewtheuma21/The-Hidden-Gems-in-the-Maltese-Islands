@@ -25,7 +25,7 @@ body {
     0% { transform: translate3d(0, -100%, 0); }
     100% { transform: translate3d(0, 0, 0); }
   }
-  .col-8 .animated-title{
+  .col-8{
     padding-left: 320px; /* to in-line with the form below */
   }
 
@@ -37,6 +37,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 90vmin;
+    padding-left: 400px;
   }
   .animated-title > div {
     height: 50%;
@@ -85,8 +86,9 @@ body {
 }
 
 .contact-content{
-    margin-top: 520px; /* the position (spacing) between the animation and the form */
+    margin-top: 350px; /* the position (spacing) between the animation and the form */
     padding-bottom: 30px;
+    padding-left: 75px;
 }
 
 label {
@@ -97,12 +99,14 @@ label {
     padding-top: 0px;
 }
 
-.form {
+.col-8 .form {
   padding-top: 20px;
 }
+
 /* bootstrap buttons layout */
 
 .buttons{
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
