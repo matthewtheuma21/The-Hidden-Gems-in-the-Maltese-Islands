@@ -37,7 +37,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 90vmin;
-    padding-left: 400px;
+    margin-left: 400px;
   }
   .animated-title > div {
     height: 50%;
@@ -80,9 +80,8 @@ body {
 
 /* content */
 .img-fluid {
-    padding-top: 100px;
-    padding-left: 100px;
-    width: 180px;
+    width: 100px;
+    margin-top: 100px;
 }
 
 .contact-content{
